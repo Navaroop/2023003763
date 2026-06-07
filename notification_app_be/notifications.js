@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import "dotenv/config";
 import axios from "axios";
 import { Log } from "../logging_middleware/logger.js";
